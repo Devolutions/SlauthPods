@@ -1,0 +1,16 @@
+PODS:
+  - SlauthPods (0.1.0)
+
+DEPENDENCIES:
+  - SlauthPods (from `../`)
+
+EXTERNAL SOURCES:
+  SlauthPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SlauthPods: 2a594d0508e8fe35fb11c62e2f16cfe90e66b733
+
+PODFILE CHECKSUM: 84d7ccf2156c827a438d8f5bd37936893322e585
+
+COCOAPODS: 1.6.1
