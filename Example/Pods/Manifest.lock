@@ -1,0 +1,22 @@
+PODS:
+  - SlauthPods (0.1.0)
+
+DEPENDENCIES:
+  - SlauthPods (from `https://github.com/richerarc/SlauthPods.git`, branch `0.1.0`)
+
+EXTERNAL SOURCES:
+  SlauthPods:
+    :branch: 0.1.0
+    :git: https://github.com/richerarc/SlauthPods.git
+
+CHECKOUT OPTIONS:
+  SlauthPods:
+    :commit: 65f9db3c19dd896d8203ce64fdd0af569046934c
+    :git: https://github.com/richerarc/SlauthPods.git
+
+SPEC CHECKSUMS:
+  SlauthPods: 2a594d0508e8fe35fb11c62e2f16cfe90e66b733
+
+PODFILE CHECKSUM: 757e2b31d50a002bb82bb14a3d91701e7e6e6049
+
+COCOAPODS: 1.6.1
