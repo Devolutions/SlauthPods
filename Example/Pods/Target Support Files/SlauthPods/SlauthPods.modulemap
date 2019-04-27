@@ -1,6 +1,0 @@
-framework module SlauthPods {
-  umbrella header "SlauthPods-umbrella.h"
-
-  export *
-  module * { export * }
-}
