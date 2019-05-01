@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Totp: RustObject {
+public class Totp: NSObject, RustObject {
 	var raw: OpaquePointer
 	
 	required init(raw: OpaquePointer) {

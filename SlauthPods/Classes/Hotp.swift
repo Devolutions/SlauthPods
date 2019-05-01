@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Hotp: RustObject {
+public class Hotp: NSObject, RustObject {
 	var raw: OpaquePointer
 	
 	required init(raw: OpaquePointer) {
