@@ -19,6 +19,10 @@
 
 #define HOTP_DEFAULT_RESYNC_VALUE 2
 
+#define MAX_RESPONSE_LEN_EXTENDED 65536
+
+#define MAX_RESPONSE_LEN_SHORT 256
+
 #define OTP_DEFAULT_DIGITS_VALUE 6
 
 #define REGISTER_COMMAND_CODE 1
@@ -74,6 +78,8 @@ void totp_free(TOTPContext *totp);
 TOTPContext *totp_from_uri(const char *uri);
 
 char *totp_gen(TOTPContext *totp);
+
+char *totp_gen_with(TOTPContext *totp, unsigned long elapsed);
 
 char *totp_to_uri(TOTPContext *totp, const char *label, const char *issuer);
 

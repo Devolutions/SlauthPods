@@ -41,6 +41,13 @@ public class Totp: NSObject, RustObject {
 		return s
 	}
 	
+	public func gen_with(elapsed: UInt) -> String {
+		let code = totp_gen_with(raw, elapsed)
+		let s = String(cString: code!)
+		free(code)
+		return s
+	}
+	
 	public func verify(code: String) -> Bool {
 		return totp_verify(raw, code)
 	}
