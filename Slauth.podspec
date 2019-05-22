@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Slauth'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A Swift wrapper aroud Slauth Rust crate'
 
   s.description      = <<-DESC
