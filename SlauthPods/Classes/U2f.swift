@@ -18,7 +18,7 @@ public class WebRequest : RustObject {
 		self.init(raw: web_request_from_json(json))
 	}
 	
-	func intoRaw() -> OpaquePointer {
+	public func intoRaw() -> OpaquePointer {
 		return self.raw
 	}
 	
@@ -26,15 +26,15 @@ public class WebRequest : RustObject {
 		web_request_free(raw)
 	}
 	
-	func isRegister() -> Bool {
+	public func isRegister() -> Bool {
 		return web_request_is_register(raw)
 	}
 	
-	func isSign() -> Bool {
+	public func isSign() -> Bool {
 		return web_request_is_sign(raw)
 	}
 	
-	func getOrigin() -> Optional<String> {
+	public func getOrigin() -> Optional<String> {
 		let cOrigin = web_request_origin(raw)
 		if cOrigin == nil {
 			return .none
@@ -45,11 +45,11 @@ public class WebRequest : RustObject {
 		return .some(origin)
 	}
 	
-	func getTimeout() -> UInt64 {
+	public func getTimeout() -> UInt64 {
 		return web_request_timeout(raw)
 	}
 	
-	func getKeyHandle(origin: String) -> Optional<String> {
+	public func getKeyHandle(origin: String) -> Optional<String> {
 		if self.isSign() {
 			let cKeyHandle = web_request_key_handle(raw, origin)
 			if cKeyHandle == nil {
@@ -64,11 +64,11 @@ public class WebRequest : RustObject {
 		}
 	}
 	
-	func register(origin: String, attestationCert: [UInt8], attestationKey: [UInt8]) -> WebResponse {
+	public func register(origin: String, attestationCert: [UInt8], attestationKey: [UInt8]) -> WebResponse {
 		return WebResponse(raw: web_request_register(raw, origin, attestationCert, UInt64(attestationCert.count), attestationKey, UInt64(attestationKey.count)))
 	}
 	
-	func sing(origin: String, signingKey: SigningKey, counter: UInt32, userPresence: Bool) -> WebResponse {
+	public func sing(origin: String, signingKey: SigningKey, counter: UInt32, userPresence: Bool) -> WebResponse {
 		return WebResponse(raw: web_request_sign(raw, signingKey.intoRaw(), origin, UInt(counter), userPresence))
 	}
 	
@@ -93,7 +93,7 @@ public class SigningKey: RustObject {
 		signing_key_free(raw)
 	}
 	
-	func toString() -> String {
+	public func toString() -> String {
 		let csString = signing_key_to_string(raw)
 		let sign = String(cString: csString!)
 		free(csString)
@@ -116,7 +116,7 @@ public class WebResponse: RustObject {
 		client_web_response_free(raw)
 	}
 	
-	func getSigningKey() -> Optional<SigningKey> {
+	public func getSigningKey() -> Optional<SigningKey> {
 		let rawKey = client_web_response_signing_key(raw)
 		if rawKey == nil {
 			return .none
@@ -125,7 +125,7 @@ public class WebResponse: RustObject {
 		return .some(SigningKey(raw: rawKey!))
 	}
 	
-	func toJson() -> String {
+	public func toJson() -> String {
 		let cJsonString = client_web_response_to_json(raw)
 		let json = String(cString: cJsonString!)
 		free(cJsonString)
