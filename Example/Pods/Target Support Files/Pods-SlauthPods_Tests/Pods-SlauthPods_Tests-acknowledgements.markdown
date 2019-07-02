@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SlauthPods
+## Slauth
 
 Copyright (c) 2019 richerarc <richer.arc@gmail.com>
 

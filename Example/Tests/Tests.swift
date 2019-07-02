@@ -1,5 +1,5 @@
 import XCTest
-import SlauthPods
+import Slauth
 
 class Tests: XCTestCase {
     

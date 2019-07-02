@@ -1,6 +1,6 @@
 use_frameworks!
 target 'SlauthPods_Tests' do
-  pod 'SlauthPods', :git => 'https://github.com/richerarc/SlauthPods.git', :branch => '0.1.0'
-  
-  
+  pod 'Slauth', :path => '../'
+
+
 end

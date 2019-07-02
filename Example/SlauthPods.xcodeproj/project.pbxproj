@@ -199,13 +199,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SlauthPods_Tests/Pods-SlauthPods_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SlauthPods/SlauthPods.framework",
+				"${BUILT_PRODUCTS_DIR}/Slauth/Slauth.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlauthPods.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Slauth.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

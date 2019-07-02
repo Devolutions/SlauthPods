@@ -1,0 +1,6 @@
+framework module Slauth {
+  umbrella header "Slauth-umbrella.h"
+
+  export *
+  module * { export * }
+}

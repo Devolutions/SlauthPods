@@ -7,80 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2675D24C930B0943D9C9468058A451AB /* Totp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1066F9FAEF596C8117169E182FA59F2 /* Totp.swift */; };
-		4989F72A7CE9A1AD884D83D8FB0182BC /* slauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 153ACDCB81D8C0E6776F17A0A8F8E62B /* slauth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5142253787C553D9007F1C133E3AA83F /* SlauthPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C907ADE9B657F62EA14D03A7BEB6BF /* SlauthPods-dummy.m */; };
-		5371ED02C6CE2D34ADCC70D86F3823DE /* Pods-SlauthPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784384B7B2DC4733C7C0C792B925D284 /* Pods-SlauthPods_Tests-dummy.m */; };
-		5BF279D2C4BB24CE6F2D98BC7B02ADA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		697A622A82C244493024E29D68BAC4A3 /* Pods-SlauthPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2ECD449DF2BD27F92206C83B229C0AC /* Pods-SlauthPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76205EE0C14E1AFD980CACAE640F6E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		98EFF664F4261C3768EFF7B3F24D29BB /* Hotp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603A5453C21365E5C62C0315ADF77734 /* Hotp.swift */; };
-		C6767D9A59E852146A87C67589EC3700 /* SlauthPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B07278097BA10F11BF3D030FE36D4882 /* SlauthPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EED5CBDCA64A8958EAF4997B97D40F68 /* RustObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC3A7F391336DB0BA8C26239DF876C /* RustObject.swift */; };
+		4988BCB4F49F2CF9152135A510BFE694 /* Slauth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EEAB2F5D7ABA3AB682742B9E33DED /* Slauth-dummy.m */; };
+		5C74DA4F1E0CE80E754046490E30B5E2 /* Slauth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2747CC40A0B51274BDBA5DF4AD6585B7 /* Slauth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8557159D0E2B17C4BD52417F3D3250C9 /* Pods-SlauthPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784384B7B2DC4733C7C0C792B925D284 /* Pods-SlauthPods_Tests-dummy.m */; };
+		8F552797039B3DE05BCC47EB8E080D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9770712D7338B00DF68A46324CCB9309 /* Pods-SlauthPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2ECD449DF2BD27F92206C83B229C0AC /* Pods-SlauthPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E4A5D470ECDC10BB1B5EBC99D29309 /* RustObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C655685AD91A5A46DBD891E1AF360 /* RustObject.swift */; };
+		AB0AB539D1F27F016447E0D6F1167C87 /* slauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 618CDD29E65742E97DE8EF773C8CB8F4 /* slauth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC70869F1D327A85D09FF212D9899B9 /* Hotp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF9E1C4FC048A281D02C585E803A71 /* Hotp.swift */; };
+		E4DB59E2969B04535EAD2ECD07390792 /* Totp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863D0AFB7352CA408940143E066A1A29 /* Totp.swift */; };
+		EA841D4293F6629B7A207B0EBB9595E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F90E8F2B22CACCB30024ED72 /* U2f.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E8F2A22CACCB30024ED72 /* U2f.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		128187A493FA0871784382D02AEBB052 /* PBXContainerItemProxy */ = {
+		38985A4325AD9F30342FED37DEC9E003 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C3A029D9F5C8191821355BF2AF3BA7A;
-			remoteInfo = SlauthPods;
+			remoteGlobalIDString = 2973C57CFD72F0CABC403D45F30D05ED;
+			remoteInfo = Slauth;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02B7CF19F442972A3C83B7343EEAF295 /* libslauth_arm_v7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_arm_v7.a; path = SlauthPods/Rust/libslauth_arm_v7.a; sourceTree = "<group>"; };
 		07D71985D2E7270902C61B04BFEE53AF /* Pods-SlauthPods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlauthPods_Tests-Info.plist"; sourceTree = "<group>"; };
-		099BEE256397B9599908683F5A05445F /* SlauthPods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SlauthPods-Info.plist"; sourceTree = "<group>"; };
 		0FDB0EB49881E8D94FC3103BB65617F6 /* Pods-SlauthPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlauthPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13F907DF8E619399981D9AB95598DFA2 /* libslauth_x86.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_x86.a; path = SlauthPods/Rust/libslauth_x86.a; sourceTree = "<group>"; };
-		153ACDCB81D8C0E6776F17A0A8F8E62B /* slauth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = slauth.h; path = SlauthPods/Headers/slauth.h; sourceTree = "<group>"; };
-		1CAC3A7F391336DB0BA8C26239DF876C /* RustObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RustObject.swift; path = SlauthPods/Classes/RustObject.swift; sourceTree = "<group>"; };
-		23C907ADE9B657F62EA14D03A7BEB6BF /* SlauthPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlauthPods-dummy.m"; sourceTree = "<group>"; };
-		3CD4B0DBBED6A588A4E5E19625486622 /* Pods_SlauthPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlauthPods_Tests.framework; path = "Pods-SlauthPods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CF9E1C4FC048A281D02C585E803A71 /* Hotp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hotp.swift; sourceTree = "<group>"; };
+		144EEAB2F5D7ABA3AB682742B9E33DED /* Slauth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Slauth-dummy.m"; sourceTree = "<group>"; };
+		1507B85A582FF5AE19E064BD0145F06A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2747CC40A0B51274BDBA5DF4AD6585B7 /* Slauth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slauth-umbrella.h"; sourceTree = "<group>"; };
+		5A562191048A92DEC8DBFA8554D605F7 /* Slauth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Slauth-Info.plist"; sourceTree = "<group>"; };
 		5FE63E130ABCEEBC4803472E7DAEF521 /* Pods-SlauthPods_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlauthPods_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		603A5453C21365E5C62C0315ADF77734 /* Hotp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hotp.swift; path = SlauthPods/Classes/Hotp.swift; sourceTree = "<group>"; };
-		6EC47D453591909A90FC8CB7AEB49E19 /* libslauth_universal.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_universal.a; path = SlauthPods/Rust/libslauth_universal.a; sourceTree = "<group>"; };
+		618CDD29E65742E97DE8EF773C8CB8F4 /* slauth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = slauth.h; sourceTree = "<group>"; };
+		642389382F12CA580624112486DB9B4F /* Slauth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Slauth.xcconfig; sourceTree = "<group>"; };
 		7352E64D6CB78B2DE8B74B8D48B2086F /* Pods-SlauthPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlauthPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		784384B7B2DC4733C7C0C792B925D284 /* Pods-SlauthPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlauthPods_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B3840916D5C3C32332D32590426D7DB /* libslauth_arm_v7s.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_arm_v7s.a; path = SlauthPods/Rust/libslauth_arm_v7s.a; sourceTree = "<group>"; };
-		9049302D63B167C8CA10031952533AA6 /* SlauthPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlauthPods.xcconfig; sourceTree = "<group>"; };
+		863D0AFB7352CA408940143E066A1A29 /* Totp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Totp.swift; sourceTree = "<group>"; };
+		8EED71E2658CB7EB8FF2FAC20FA8457B /* libslauth_universal.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_universal.a; path = SlauthPods/Rust/libslauth_universal.a; sourceTree = "<group>"; };
+		8F0D0DC605B72D4B620FDF48188A7083 /* libslauth_x86.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_x86.a; path = SlauthPods/Rust/libslauth_x86.a; sourceTree = "<group>"; };
+		9078CDEB4DDC24DE29F21604AA9F57BC /* libslauth_arm_v7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_arm_v7.a; path = SlauthPods/Rust/libslauth_arm_v7.a; sourceTree = "<group>"; };
+		908731D652B76489ECDBDF7397E9D507 /* Slauth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Slauth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		968902C249C839CCE46379549859F4FD /* Pods-SlauthPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlauthPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99562323BC168592F62DDA90B7EA5E1B /* libslauth_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_i386.a; path = SlauthPods/Rust/libslauth_i386.a; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A867442D58D745B0917D03B959AD0820 /* libslauth_arm_v7s.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_arm_v7s.a; path = SlauthPods/Rust/libslauth_arm_v7s.a; sourceTree = "<group>"; };
 		A919C501CBF67688A23A533CEFF83525 /* Pods-SlauthPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlauthPods_Tests.modulemap"; sourceTree = "<group>"; };
-		A95DA570391B9881B769A9F50B196CE5 /* libslauth_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_arm64.a; path = SlauthPods/Rust/libslauth_arm64.a; sourceTree = "<group>"; };
-		B07278097BA10F11BF3D030FE36D4882 /* SlauthPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlauthPods-umbrella.h"; sourceTree = "<group>"; };
-		B0791E9CFF593FCACA3C240083DEBCF1 /* libslauth_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_i386.a; path = SlauthPods/Rust/libslauth_i386.a; sourceTree = "<group>"; };
-		B1EDBEF3F4FAD75AE05FF91765371F18 /* SlauthPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlauthPods-prefix.pch"; sourceTree = "<group>"; };
 		B2542055C1C7C79A2AC18A4AFCEEECAF /* Pods-SlauthPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlauthPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B47CAFCB75FCA75C435D49DAE42B9692 /* libslauth_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libslauth_arm64.a; path = SlauthPods/Rust/libslauth_arm64.a; sourceTree = "<group>"; };
+		B4CF7CEA06B4B5E9F7A7B72CDF3234BD /* Slauth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slauth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB1A23EB54A84FFFB23869049FC4F31 /* Slauth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Slauth.modulemap; sourceTree = "<group>"; };
 		C2ECD449DF2BD27F92206C83B229C0AC /* Pods-SlauthPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlauthPods_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D23D1B4225F030FC32231090B8D8FD22 /* SlauthPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlauthPods.modulemap; sourceTree = "<group>"; };
-		E1066F9FAEF596C8117169E182FA59F2 /* Totp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Totp.swift; path = SlauthPods/Classes/Totp.swift; sourceTree = "<group>"; };
-		E35969AD060572A98A1F66541F291499 /* SlauthPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlauthPods.framework; path = SlauthPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B255F0FB11A6E5507913A0461CD38A /* Slauth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slauth-prefix.pch"; sourceTree = "<group>"; };
+		E1E75AFAFEEA05C8B6DA6685B10E1D5D /* Pods_SlauthPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlauthPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8C655685AD91A5A46DBD891E1AF360 /* RustObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RustObject.swift; sourceTree = "<group>"; };
+		F1A560908CCFC2357ACE6064DCB89898 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F90E8F2A22CACCB30024ED72 /* U2f.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U2f.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D834BA96C8A33AE1994516492129CA17 /* Frameworks */ = {
+		66568BA569D235DAE51387727F8FF2E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF279D2C4BB24CE6F2D98BC7B02ADA4 /* Foundation.framework in Frameworks */,
+				EA841D4293F6629B7A207B0EBB9595E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF2218D4FE5C4D9B4355FC33038167D1 /* Frameworks */ = {
+		71D4B0B229B5C6F7A1682BE87BD20ED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76205EE0C14E1AFD980CACAE640F6E6B /* Foundation.framework in Frameworks */,
+				8F552797039B3DE05BCC47EB8E080D49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ACBA3E02C3369FC637C1DB7417CF733 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10CF9E1C4FC048A281D02C585E803A71 /* Hotp.swift */,
+				EA8C655685AD91A5A46DBD891E1AF360 /* RustObject.swift */,
+				863D0AFB7352CA408940143E066A1A29 /* Totp.swift */,
+				F90E8F2A22CACCB30024ED72 /* U2f.swift */,
+			);
+			name = Classes;
+			path = SlauthPods/Classes;
+			sourceTree = "<group>";
+		};
 		4861CB1D98BEEC52C7AA62FAE20540A1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,26 +106,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5A4F2990BBB2B899491D63E19C6C51EE /* Products */ = {
+		77161B13D71C66B1939F595BD1A59679 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CD4B0DBBED6A588A4E5E19625486622 /* Pods_SlauthPods_Tests.framework */,
-				E35969AD060572A98A1F66541F291499 /* SlauthPods.framework */,
+				E1E75AFAFEEA05C8B6DA6685B10E1D5D /* Pods_SlauthPods_Tests.framework */,
+				B4CF7CEA06B4B5E9F7A7B72CDF3234BD /* Slauth.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		820CD07065E01326AFCBFABA3A58A980 /* Frameworks */ = {
+		9337B9A4938485A361ABA839E4BFE4A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A95DA570391B9881B769A9F50B196CE5 /* libslauth_arm64.a */,
-				02B7CF19F442972A3C83B7343EEAF295 /* libslauth_arm_v7.a */,
-				7B3840916D5C3C32332D32590426D7DB /* libslauth_arm_v7s.a */,
-				B0791E9CFF593FCACA3C240083DEBCF1 /* libslauth_i386.a */,
-				6EC47D453591909A90FC8CB7AEB49E19 /* libslauth_universal.a */,
-				13F907DF8E619399981D9AB95598DFA2 /* libslauth_x86.a */,
+				E08283EB5B46773B1312A10D81690461 /* Slauth */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -117,28 +129,6 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		9B45D977172B3087EF27DE7BA417FEC3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D23D1B4225F030FC32231090B8D8FD22 /* SlauthPods.modulemap */,
-				9049302D63B167C8CA10031952533AA6 /* SlauthPods.xcconfig */,
-				23C907ADE9B657F62EA14D03A7BEB6BF /* SlauthPods-dummy.m */,
-				099BEE256397B9599908683F5A05445F /* SlauthPods-Info.plist */,
-				B1EDBEF3F4FAD75AE05FF91765371F18 /* SlauthPods-prefix.pch */,
-				B07278097BA10F11BF3D030FE36D4882 /* SlauthPods-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SlauthPods";
-			sourceTree = "<group>";
-		};
-		A151A1865BB3D67778EC17F5C3490DDE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DB4B4F727AC0852720CACD10D891BEF3 /* SlauthPods */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B650F00EAB91FF9A8AAAB839BE64D591 /* Pods-SlauthPods_Tests */ = {
@@ -158,13 +148,36 @@
 			path = "Target Support Files/Pods-SlauthPods_Tests";
 			sourceTree = "<group>";
 		};
+		BB9B46D7DBF0B12578715D606963E94C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				618CDD29E65742E97DE8EF773C8CB8F4 /* slauth.h */,
+			);
+			name = Headers;
+			path = SlauthPods/Headers;
+			sourceTree = "<group>";
+		};
+		BCFB0CA7B3631B37A4B54203E527743A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1A23EB54A84FFFB23869049FC4F31 /* Slauth.modulemap */,
+				642389382F12CA580624112486DB9B4F /* Slauth.xcconfig */,
+				144EEAB2F5D7ABA3AB682742B9E33DED /* Slauth-dummy.m */,
+				5A562191048A92DEC8DBFA8554D605F7 /* Slauth-Info.plist */,
+				D2B255F0FB11A6E5507913A0461CD38A /* Slauth-prefix.pch */,
+				2747CC40A0B51274BDBA5DF4AD6585B7 /* Slauth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Slauth";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9337B9A4938485A361ABA839E4BFE4A7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A151A1865BB3D67778EC17F5C3490DDE /* Pods */,
-				5A4F2990BBB2B899491D63E19C6C51EE /* Products */,
+				77161B13D71C66B1939F595BD1A59679 /* Products */,
 				4861CB1D98BEEC52C7AA62FAE20540A1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -177,78 +190,100 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB4B4F727AC0852720CACD10D891BEF3 /* SlauthPods */ = {
+		E08283EB5B46773B1312A10D81690461 /* Slauth */ = {
 			isa = PBXGroup;
 			children = (
-				603A5453C21365E5C62C0315ADF77734 /* Hotp.swift */,
-				1CAC3A7F391336DB0BA8C26239DF876C /* RustObject.swift */,
-				153ACDCB81D8C0E6776F17A0A8F8E62B /* slauth.h */,
-				E1066F9FAEF596C8117169E182FA59F2 /* Totp.swift */,
-				820CD07065E01326AFCBFABA3A58A980 /* Frameworks */,
-				9B45D977172B3087EF27DE7BA417FEC3 /* Support Files */,
+				3ACBA3E02C3369FC637C1DB7417CF733 /* Classes */,
+				EACAF449EB5F676251A39F665544C05B /* Frameworks */,
+				BB9B46D7DBF0B12578715D606963E94C /* Headers */,
+				E1EF0F3841B5F57C974F1BA41A326A03 /* Pod */,
+				BCFB0CA7B3631B37A4B54203E527743A /* Support Files */,
 			);
-			name = SlauthPods;
-			path = SlauthPods;
+			name = Slauth;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E1EF0F3841B5F57C974F1BA41A326A03 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1A560908CCFC2357ACE6064DCB89898 /* LICENSE */,
+				1507B85A582FF5AE19E064BD0145F06A /* README.md */,
+				908731D652B76489ECDBDF7397E9D507 /* Slauth.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EACAF449EB5F676251A39F665544C05B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B47CAFCB75FCA75C435D49DAE42B9692 /* libslauth_arm64.a */,
+				9078CDEB4DDC24DE29F21604AA9F57BC /* libslauth_arm_v7.a */,
+				A867442D58D745B0917D03B959AD0820 /* libslauth_arm_v7s.a */,
+				99562323BC168592F62DDA90B7EA5E1B /* libslauth_i386.a */,
+				8EED71E2658CB7EB8FF2FAC20FA8457B /* libslauth_universal.a */,
+				8F0D0DC605B72D4B620FDF48188A7083 /* libslauth_x86.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C29712780CA5AE76753DC068F302239 /* Headers */ = {
+		3BC0D24E60AA938F0D12A34E9E60F785 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697A622A82C244493024E29D68BAC4A3 /* Pods-SlauthPods_Tests-umbrella.h in Headers */,
+				9770712D7338B00DF68A46324CCB9309 /* Pods-SlauthPods_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63763AF66240E9899242FC88700C5875 /* Headers */ = {
+		940DBBA88B4B8572535F22226A20E936 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4989F72A7CE9A1AD884D83D8FB0182BC /* slauth.h in Headers */,
-				C6767D9A59E852146A87C67589EC3700 /* SlauthPods-umbrella.h in Headers */,
+				5C74DA4F1E0CE80E754046490E30B5E2 /* Slauth-umbrella.h in Headers */,
+				AB0AB539D1F27F016447E0D6F1167C87 /* slauth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C3A029D9F5C8191821355BF2AF3BA7A /* SlauthPods */ = {
+		233DE1AFC976724B22A7AB78E84F99E6 /* Pods-SlauthPods_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C53F2109B7A23A2DCA06ABFA4F6F6B68 /* Build configuration list for PBXNativeTarget "SlauthPods" */;
+			buildConfigurationList = E48D817A41441E09ED5DCACA773614EB /* Build configuration list for PBXNativeTarget "Pods-SlauthPods_Tests" */;
 			buildPhases = (
-				63763AF66240E9899242FC88700C5875 /* Headers */,
-				5F27121C1083B3CABF1A7443101B772F /* Sources */,
-				FF2218D4FE5C4D9B4355FC33038167D1 /* Frameworks */,
-				531C38B1A1C29044DE45D6776F4831F0 /* Resources */,
+				3BC0D24E60AA938F0D12A34E9E60F785 /* Headers */,
+				502A3C89771A3E76D3B4AA3BCA0CD36E /* Sources */,
+				71D4B0B229B5C6F7A1682BE87BD20ED2 /* Frameworks */,
+				BFDD4ACFF8AF4549BF6229C0BD283590 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SlauthPods;
-			productName = SlauthPods;
-			productReference = E35969AD060572A98A1F66541F291499 /* SlauthPods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB847391B0165FB7891FC3DA94A7EED8 /* Pods-SlauthPods_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC65714732BAEA82A3CB54570023DFBB /* Build configuration list for PBXNativeTarget "Pods-SlauthPods_Tests" */;
-			buildPhases = (
-				2C29712780CA5AE76753DC068F302239 /* Headers */,
-				645B12260F2C3BB6C7E8A7DC4E377F5F /* Sources */,
-				D834BA96C8A33AE1994516492129CA17 /* Frameworks */,
-				08D7E91614D1A75DA56A7E66095F7669 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF94B59DBBCCEE59DE947E8ACD8669B9 /* PBXTargetDependency */,
+				713C9A8B50354FBD579F5E1128156608 /* PBXTargetDependency */,
 			);
 			name = "Pods-SlauthPods_Tests";
 			productName = "Pods-SlauthPods_Tests";
-			productReference = 3CD4B0DBBED6A588A4E5E19625486622 /* Pods_SlauthPods_Tests.framework */;
+			productReference = E1E75AFAFEEA05C8B6DA6685B10E1D5D /* Pods_SlauthPods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2973C57CFD72F0CABC403D45F30D05ED /* Slauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4614800DEEE201B12F2A3F77314DC13E /* Build configuration list for PBXNativeTarget "Slauth" */;
+			buildPhases = (
+				940DBBA88B4B8572535F22226A20E936 /* Headers */,
+				2EF3960DB7ED9CBB34963CB1E83B60C1 /* Sources */,
+				66568BA569D235DAE51387727F8FF2E4 /* Frameworks */,
+				FF18BF71172CFB485FDBCB1BD6CDE800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slauth;
+			productName = Slauth;
+			productReference = B4CF7CEA06B4B5E9F7A7B72CDF3234BD /* Slauth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -259,34 +294,40 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					233DE1AFC976724B22A7AB78E84F99E6 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5A4F2990BBB2B899491D63E19C6C51EE /* Products */;
+			productRefGroup = 77161B13D71C66B1939F595BD1A59679 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB847391B0165FB7891FC3DA94A7EED8 /* Pods-SlauthPods_Tests */,
-				2C3A029D9F5C8191821355BF2AF3BA7A /* SlauthPods */,
+				233DE1AFC976724B22A7AB78E84F99E6 /* Pods-SlauthPods_Tests */,
+				2973C57CFD72F0CABC403D45F30D05ED /* Slauth */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		08D7E91614D1A75DA56A7E66095F7669 /* Resources */ = {
+		BFDD4ACFF8AF4549BF6229C0BD283590 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		531C38B1A1C29044DE45D6776F4831F0 /* Resources */ = {
+		FF18BF71172CFB485FDBCB1BD6CDE800 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,42 +337,75 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F27121C1083B3CABF1A7443101B772F /* Sources */ = {
+		2EF3960DB7ED9CBB34963CB1E83B60C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98EFF664F4261C3768EFF7B3F24D29BB /* Hotp.swift in Sources */,
-				EED5CBDCA64A8958EAF4997B97D40F68 /* RustObject.swift in Sources */,
-				5142253787C553D9007F1C133E3AA83F /* SlauthPods-dummy.m in Sources */,
-				2675D24C930B0943D9C9468058A451AB /* Totp.swift in Sources */,
+				BBC70869F1D327A85D09FF212D9899B9 /* Hotp.swift in Sources */,
+				F90E8F2B22CACCB30024ED72 /* U2f.swift in Sources */,
+				A7E4A5D470ECDC10BB1B5EBC99D29309 /* RustObject.swift in Sources */,
+				4988BCB4F49F2CF9152135A510BFE694 /* Slauth-dummy.m in Sources */,
+				E4DB59E2969B04535EAD2ECD07390792 /* Totp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		645B12260F2C3BB6C7E8A7DC4E377F5F /* Sources */ = {
+		502A3C89771A3E76D3B4AA3BCA0CD36E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5371ED02C6CE2D34ADCC70D86F3823DE /* Pods-SlauthPods_Tests-dummy.m in Sources */,
+				8557159D0E2B17C4BD52417F3D3250C9 /* Pods-SlauthPods_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF94B59DBBCCEE59DE947E8ACD8669B9 /* PBXTargetDependency */ = {
+		713C9A8B50354FBD579F5E1128156608 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SlauthPods;
-			target = 2C3A029D9F5C8191821355BF2AF3BA7A /* SlauthPods */;
-			targetProxy = 128187A493FA0871784382D02AEBB052 /* PBXContainerItemProxy */;
+			name = Slauth;
+			target = 2973C57CFD72F0CABC403D45F30D05ED /* Slauth */;
+			targetProxy = 38985A4325AD9F30342FED37DEC9E003 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5AEA2F40F5DAFA763514280482116CD8 /* Debug */ = {
+		0DEB80D55C1407199BE2CF08C4C98AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968902C249C839CCE46379549859F4FD /* Pods-SlauthPods_Tests.debug.xcconfig */;
+			baseConfigurationReference = 642389382F12CA580624112486DB9B4F /* Slauth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Slauth/Slauth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Slauth/Slauth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Slauth/Slauth.modulemap";
+				PRODUCT_MODULE_NAME = Slauth;
+				PRODUCT_NAME = Slauth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D06BCEFF55DA96821EF9BCC8716BCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7352E64D6CB78B2DE8B74B8D48B2086F /* Pods-SlauthPods_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -354,16 +428,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		72C40AE3BE4D203E059604662302221F /* Debug */ = {
+		3150F84796A6BA4C63CB58E2D514C539 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9049302D63B167C8CA10031952533AA6 /* SlauthPods.xcconfig */;
+			baseConfigurationReference = 968902C249C839CCE46379549859F4FD /* Pods-SlauthPods_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -373,17 +451,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlauthPods/SlauthPods-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlauthPods/SlauthPods-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlauthPods_Tests/Pods-SlauthPods_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlauthPods/SlauthPods.modulemap";
-				PRODUCT_MODULE_NAME = SlauthPods;
-				PRODUCT_NAME = SlauthPods;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlauthPods_Tests/Pods-SlauthPods_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -455,9 +536,9 @@
 			};
 			name = Debug;
 		};
-		AC4137E589E79A9E31A40F39DD73F3B7 /* Release */ = {
+		DC0543534B20BB4557641A642EAEFC78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9049302D63B167C8CA10031952533AA6 /* SlauthPods.xcconfig */;
+			baseConfigurationReference = 642389382F12CA580624112486DB9B4F /* Slauth.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -468,52 +549,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlauthPods/SlauthPods-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlauthPods/SlauthPods-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Slauth/Slauth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Slauth/Slauth-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlauthPods/SlauthPods.modulemap";
-				PRODUCT_MODULE_NAME = SlauthPods;
-				PRODUCT_NAME = SlauthPods;
+				MODULEMAP_FILE = "Target Support Files/Slauth/Slauth.modulemap";
+				PRODUCT_MODULE_NAME = Slauth;
+				PRODUCT_NAME = Slauth;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E6607DC438EA41FBD9C3B779171E8043 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7352E64D6CB78B2DE8B74B8D48B2086F /* Pods-SlauthPods_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SlauthPods_Tests/Pods-SlauthPods_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SlauthPods_Tests/Pods-SlauthPods_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -574,8 +621,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -584,6 +630,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4614800DEEE201B12F2A3F77314DC13E /* Build configuration list for PBXNativeTarget "Slauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEB80D55C1407199BE2CF08C4C98AF7 /* Debug */,
+				DC0543534B20BB4557641A642EAEFC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -593,20 +648,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC65714732BAEA82A3CB54570023DFBB /* Build configuration list for PBXNativeTarget "Pods-SlauthPods_Tests" */ = {
+		E48D817A41441E09ED5DCACA773614EB /* Build configuration list for PBXNativeTarget "Pods-SlauthPods_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEA2F40F5DAFA763514280482116CD8 /* Debug */,
-				E6607DC438EA41FBD9C3B779171E8043 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C53F2109B7A23A2DCA06ABFA4F6F6B68 /* Build configuration list for PBXNativeTarget "SlauthPods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				72C40AE3BE4D203E059604662302221F /* Debug */,
-				AC4137E589E79A9E31A40F39DD73F3B7 /* Release */,
+				3150F84796A6BA4C63CB58E2D514C539 /* Debug */,
+				1D06BCEFF55DA96821EF9BCC8716BCDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

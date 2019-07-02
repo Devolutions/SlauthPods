@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../SlauthPods/Classes/U2f.swift">
+   </FileRef>
+   <FileRef
       location = "group:SlauthPods.xcodeproj">
    </FileRef>
    <FileRef
