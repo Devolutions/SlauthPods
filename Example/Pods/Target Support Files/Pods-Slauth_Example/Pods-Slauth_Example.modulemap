@@ -1,0 +1,6 @@
+framework module Pods_Slauth_Example {
+  umbrella header "Pods-Slauth_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
