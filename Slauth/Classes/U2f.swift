@@ -72,7 +72,7 @@ public class WebRequest : RustObject {
 		return WebResponse(raw: web_request_register(raw, origin, attestationCert, UInt64(attestationCert.count), attestationKey, UInt64(attestationKey.count)))
 	}
 	
-	public func sing(origin: String, signingKey: SigningKey, counter: UInt32, userPresence: Bool) -> WebResponse {
+	public func sign(origin: String, signingKey: SigningKey, counter: UInt32, userPresence: Bool) -> WebResponse {
 		return WebResponse(raw: web_request_sign(raw, signingKey.intoRaw(), origin, UInt(counter), userPresence))
 	}
 	
@@ -101,6 +101,13 @@ public class SigningKey: RustObject {
 	
 	deinit {
 		signing_key_free(raw)
+	}
+	
+	public func getKeyHandle() -> String {
+		let cString = signing_key_get_key_handle(raw)
+		let keyHandle = String(cString: cString!)
+		free(cString)
+		return keyHandle
 	}
 	
 	public func toString() -> String {

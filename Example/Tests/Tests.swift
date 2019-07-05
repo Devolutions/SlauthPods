@@ -23,7 +23,9 @@ class TableOfContentsSpec: QuickSpec {
 				
 				let rsp = web_r.register(origin: origin!, attestationCert: att_cert, attestationKey: att_key)
 				
-				print("\(String(describing: rsp.getSigningKey()?.toString()))")
+				let key = rsp.getSigningKey();
+				print("\(key!.getKeyHandle())")
+				print("\(key!.toString())")
 				print("\(rsp.toJson())")
 			}
 		}

@@ -163,6 +163,8 @@ void signing_key_free(SigningKey *s);
 
 SigningKey *signing_key_from_string(const char *s);
 
+char *signing_key_get_key_handle(SigningKey *s);
+
 char *signing_key_to_string(SigningKey *s);
 
 void totp_free(TOTPContext *totp);
@@ -192,16 +194,16 @@ char *web_request_key_handle(WebRequest *req, const char *origin);
 char *web_request_origin(WebRequest *req);
 
 ClientWebResponse *web_request_register(WebRequest *req,
-                                        const char *origin,
-                                        const unsigned char *attestation_cert,
-                                        unsigned long long attestation_cert_len,
-                                        const unsigned char *attestation_key,
-                                        unsigned long long attestation_key_len);
+										const char *origin,
+										const unsigned char *attestation_cert,
+										unsigned long long attestation_cert_len,
+										const unsigned char *attestation_key,
+										unsigned long long attestation_key_len);
 
 ClientWebResponse *web_request_sign(WebRequest *req,
-                                    SigningKey *signing_key,
-                                    const char *origin,
-                                    unsigned long counter,
-                                    bool user_presence);
+									SigningKey *signing_key,
+									const char *origin,
+									unsigned long counter,
+									bool user_presence);
 
 unsigned long long web_request_timeout(WebRequest *req);
