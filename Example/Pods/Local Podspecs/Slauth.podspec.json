@@ -1,9 +1,9 @@
 {
   "name": "Slauth",
-  "version": "0.4.3",
+  "version": "0.4.5",
   "summary": "A Swift wrapper aroud Slauth Rust crate",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/richerarc/SlauthPods",
+  "homepage": "https://github.com/richerarc/SlauthPods.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,12 @@
     "richerarc": "richer.arc@gmail.com"
   },
   "source": {
-    "git": "https://github.com/richerarc/SlauthPods",
-    "tag": "0.4.3"
+    "git": "https://github.com/richerarc/SlauthPods.git",
+    "tag": "0.4.5"
   },
   "swift_version": "5.0",
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "source_files": [
     "Slauth/Classes/**/*",
