@@ -12,3 +12,7 @@ protocol RustObject {
 	init(raw: OpaquePointer)
 	func intoRaw() -> OpaquePointer
 }
+
+struct Err: Error {
+    let message: String
+}

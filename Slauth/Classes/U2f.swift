@@ -25,10 +25,12 @@ public class WebRequest : RustObject {
 	public func intoRaw() -> OpaquePointer {
 		return self.raw
 	}
-	
-	deinit {
-		web_request_free(raw)
-	}
+    
+    deinit {
+        if raw != nil {
+            web_request_free(raw)
+        }
+    }
 	
 	public func isRegister() -> Bool {
 		return web_request_is_register(raw)
