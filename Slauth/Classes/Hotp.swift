@@ -19,9 +19,14 @@ public class Hotp: NSObject, RustObject {
 		return self.raw
 	}
 	
-	public convenience init(uri: String) {
-		self.init(raw: hotp_from_uri(uri))
-	}
+    public convenience init(uri: String) throws {
+        let r = hotp_from_uri(uri)
+        if r == nil {
+            throw Err(message: "InvalidUri")
+        } else {
+            self.init(raw: r!)
+        }
+    }
 	
 	deinit {
 		hotp_free(raw)

@@ -19,8 +19,13 @@ public class Totp: NSObject, RustObject {
 		return self.raw
 	}
 	
-	public convenience init(uri: String) {
-		self.init(raw: totp_from_uri(uri))
+	public convenience init(uri: String) throws {
+		let r = totp_from_uri(uri)
+        if r == nil {
+            throw Err(message: "InvalidUri")
+        } else {
+            self.init(raw: r!)
+        }
 	}
 	
 	deinit {
